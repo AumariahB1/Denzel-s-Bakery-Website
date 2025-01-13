@@ -1,0 +1,70 @@
+
+body {
+  align-content: flex-start;
+  background-color:#FAEDCB;
+  font-size: 20px;
+  font-family: sans-serif;
+
+}
+
+.gallery{
+  display: flex;
+  flex-wrap:wrap
+    justify-content:center
+    margin: 20px;
+}
+
+.recipe-card{
+  width: 325px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+h1 {
+  font-family: cursive;
+  color: cadetblue;
+} 
+
+p { font-family: cursive;
+
+  color: cadetblue;
+}
+
+h1 { 
+  font-family: cursive;
+  color: brown;
+}
+
+
+}
+h3 {
+  font-family: cursive;
+  color: brown;
+}
+
+li {
+  font-family: fantasy;
+  color: cadetblue;
+}
+
+h4 {
+  font-family: fantasy;
+  color: brown;
+}
+
+img {
+  width: 230px;
+  height: 204px;
+  float: right;
+  border-color: saddlebrown;
+  border-style: solid;
+  border-image-width: 30px;
+  margin: 11px;
+}
